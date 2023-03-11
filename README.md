@@ -1,4 +1,4 @@
-# new-vue-project
+# vue-test-task-frontend
 
 ## Project setup
 ```

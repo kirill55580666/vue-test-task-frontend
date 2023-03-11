@@ -1,0 +1,19 @@
+.main-view {
+    display: flex;
+}
+
+.main-view__block {
+    margin-bottom: 50px;
+}
+
+.main-view__right-block, .main-view__left-block {
+    width: 50%;
+}
+
+.main-view__left-block {
+    margin-right: 30px;
+}
+
+.main-view__right-block {
+    margin-left: 30px;
+}

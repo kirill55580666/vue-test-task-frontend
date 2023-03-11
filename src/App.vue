@@ -1,12 +1,14 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view />
+  <main-view />
 </template>
 
 <style lang="scss">
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -28,3 +30,9 @@ nav {
   }
 }
 </style>
+<script>
+import MainView from "@/views/main/main-view.vue";
+export default {
+  components: { MainView },
+};
+</script>
